@@ -1,17 +1,17 @@
 # Build the executable based on the source files
-set(TARGET_NAME LCD)
+set(TARGET_NAME Surf5_LCD_library)
 
 add_executable(${TARGET_NAME}
 
-  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/GPIO/LCD/main.c 
-  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/GPIO/LCD/W7500x_it.c
-  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/GPIO/LCD/retarget.c
-  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/GPIO/LCD/LCD.c
+  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/Surf5_LCD_library/main.c 
+  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/Surf5_LCD_library/W7500x_it.c
+  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/Surf5_LCD_library/retarget.c
+  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/Surf5_LCD_library/LCD.c
   ${CMAKE_SOURCE_DIR}/Libraries/CMSIS/Device/WIZnet/W7500/Source/GCC/startup_w7500.s
   )
 
 target_include_directories(${TARGET_NAME} PUBLIC
-  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/GPIO/LCD
+  ${CMAKE_SOURCE_DIR}/Projects/W7500x_StdPeriph_Examples/Surf5_LCD_library
   )
 
 target_link_libraries(${TARGET_NAME} PRIVATE
