@@ -1,7 +1,7 @@
 # Surf5_LCD_library
 
-  LCD ------ Surf 5
-  -----------------
+  LCD -- Surf 5  <br />
+  --------------<br />
   VSS  -  GND
   VDD  -  5V
   VO   -  Variable Resistance
