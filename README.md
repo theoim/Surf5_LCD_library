@@ -1,24 +1,24 @@
 # Surf5_LCD_library
 
   LCD -- Surf 5  <br />
-  --------------<br />
-  VSS  -  GND
-  VDD  -  5V
-  VO   -  Variable Resistance
+  -------------- <br />
+  VSS  -  GND  <br />
+  VDD  -  5V  <br />
+  VO   -  Variable Resistance  <br />
   
-  RS   -  PA0
-  RW   -  PA2
-  E    -  PA1
+  RS   -  PA0  <br />
+  RW   -  PA2  <br />
+  E    -  PA1  <br />
 
-  D0   -  PC0
-  D1   -  PC1
-  D2   -  PC2
-  D3   -  PC3
-  D4   -  PC4
-  D5   -  PC5
-  D6   -  PC8
-  D7   -  PC9
+  D0   -  PC0  <br />
+  D1   -  PC1 <br />
+  D2   -  PC2 <br />
+  D3   -  PC3 <br />
+  D4   -  PC4 <br />
+  D5   -  PC5 <br />
+  D6   -  PC8 <br />
+  D7   -  PC9 <br />
 
-  A    -  Resistance  -  GND
-  K    -  GND
+  A    -  Resistance  -  GND <br />
+  K    -  GND <br />
   
