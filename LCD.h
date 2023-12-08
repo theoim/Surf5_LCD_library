@@ -1,0 +1,13 @@
+void LCD_control_write(unsigned char LCD_cmd);	
+void ControlGPIO(unsigned char LCD_ctrl_data);
+void LCD_String(char *str);
+void LCD_data_write(unsigned char LCD_write_data);		
+void LCD_initial(void);
+void LCD_busy(void);
+void LCD_command(unsigned char cmd);
+void LCD_display_position(unsigned char row, unsigned char col);
+void LCD_display_OnOff(int D, int C, int B);
+void LCD_cursordisplay_shift(int SC, int RL);
+void LCD_display_clear();
+void LCD_cursor_home();
+void LCD_entry_mode(int ID, int S);
