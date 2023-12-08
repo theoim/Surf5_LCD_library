@@ -2,12 +2,12 @@
 
 You can use Surf 5 and LCD with VS Code. This library is a complete C library that does not use C++ or Python. 
 
-Please put it in the **"...\W7500x-surf5\Projects\W7500x_StdPeriph_Examples"** directory and use it.
+put it in the **"...\W7500x-surf5\Projects\W7500x_StdPeriph_Examples"** directory and use it.
 
 Communication uses **8Bits-bus communication**.
 The SPI version will be uploaded later.
 
-Please refer to the following when connecting the module and Surf 5.
+refer to the following when connecting the module and Surf 5.
 
   **LCD** -- **Surf 5**  <br />
   -------------- <br />
